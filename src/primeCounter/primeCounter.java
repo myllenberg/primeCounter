@@ -35,7 +35,8 @@ public class primeCounter {
 		if (number % 2 == 0) {
 			return false;
 		}
-		
+		//check all odd numbers i. If number is divisible with i, 
+		//then it is not a prime
 		for (int i = 3; i <= Math.sqrt(number); i += 2) {
 			if (number % i == 0) {
 				return false;
