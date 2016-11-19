@@ -30,7 +30,8 @@ public class primeCounter {
 	 * If not, the the number n is a prime.
 	 */
 	public static boolean isPrime(int number) {
-		// check if n is a multiple of 2
+		// check if number is a multiple of 2 -> then it 
+		//is divisible by 2 therefore not a prime
 		if (number % 2 == 0) {
 			return false;
 		}
